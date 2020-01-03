@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Faustina;
+    src: url("Faustina/Faustina-Regular.ttf");
+}
+@font-face {
+    font-family: Faustina;
+    src: url("Faustina/Faustina-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Faustina;
+    src: url("Faustina/Faustina-Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: Faustina;
+    src: url("Faustina/Faustina-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*
+		Author: Lillian Griffith
+		Due Date: 9 April 2019
+		Project 2
+		
+		Color & Layout Style Sheet
+		Filename: stylesheet.css
+*/
+
+html {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-width: 640px; 
+	border: 3px solid black;
+	padding: 30px;
+	font-family: Faustina, serif;
+	font-size: 1.1em;
+	background: #e8e8e8;
+}
+
+h1, h2, h3, h4 {
+	font-family: Montserrat, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #008DBA;
+	letter-spacing: 3px;
+	font-size: 2.4em;
+}
+
+nav ul {
+	text-align: center;
+	list-style: none;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.1em;
+}
+
+nav li {
+	display: inline;
+	margin: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #5E5E5E;
+}
+
+li a:hover:not(.active) {
+	color: #0AC78D;
+}
+
+li .active {
+	text-decoration: underline;
+	text-decoration-color: #5E5E5E;
+	color: #008DBA;
+}
+
+main {
+	box-sizing: border-box;
+	padding: 40px 12% 50px 12%;
+}
+
+.topic {
+	color: #595959;
+	display: block;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+
+.bodyIcons {
+	display: block;
+	margin: auto;
+	margin-bottom: 0px;
+}
+
+input, textarea {
+	display: block;
+	width: 85%;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 8px;
+	background-color: #f2f2f2;
+	color: #7a7a7a;
+	border: none;
+	font-family: Faustina, serif;
+	letter-spacing: 1px;
+}
+
+input[type=submit] {
+	width: 125px;
+	height: 50px;
+	background-color: #008DBA;
+	font-size: 1.1em;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+}
+
+#submit:hover {
+	background-color: #0AC78D;
+}
+
+.school {
+	color: #062793;
+	line-height: 30px;
+}
+
+footer {
+	border-top: 1px solid black;
+	padding-top: 20px;
+	color: #008DBA;
+}
+
+footer ul {
+	text-align: center;
+	list-style: none;
+	font-family: Montserrat, sans-serif;
+	font-size: 0.8em;
+}
+
+footer li {
+	display: inline;
+	margin: 20px;
+}
+
+#intro {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#me {
+	display: inline-block;
+	float: left;
+	width: 59%;
+	margin-right: 20px;
+	vertical-align: baseline;
+}
+
+#icons {
+	display: block;
+	padding-left: 41%;
+	margin-bottom: 40px;
+}
+
+.contactIcons {
+	margin: 10px;
+	width: 32px;
+}
+
