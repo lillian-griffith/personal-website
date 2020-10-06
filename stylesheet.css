@@ -27,8 +27,7 @@
 
 /*
 		Author: Lillian Griffith
-		Due Date: 9 April 2019
-		Project 2
+		Last Edit: 6 October 2020
 		
 		Color & Layout Style Sheet
 		Filename: stylesheet.css
@@ -51,7 +50,7 @@ body {
 	padding: 30px;
 	font-family: Faustina, serif;
 	font-size: 1.1em;
-	background: #e8e8e8;
+	background: #F5F5F5;
 }
 
 h1, h2, h3, h4 {
